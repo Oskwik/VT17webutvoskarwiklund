@@ -1,0 +1,154 @@
+body {
+background: lightgrey;
+
+}
+
+.floting {
+display: inline-block;
+ background-color: white;
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+    border: 3px solid #73AD21;
+border-radius: 10%;
+font-size: 75px;
+font-family:  Verdana,sans-serif;
+animation: box1 10s infinite;
+}
+@keyframes{
+
+}
+
+
+
+
+.box {
+ display: inline-block;
+ background-color: white;
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+    border: 3px solid #73AD21;
+border-radius: 10%;
+font-size: 75px;
+font-family:  Verdana,sans-serif;
+animation: box1 10s infinite;
+
+
+
+}
+@keyframes box1{
+
+0%{transform: rotate(0deg); right:0px;}
+100%{transform: rotate(360deg); right:200px;}
+}
+
+
+.floating-box {
+    display: inline-block;
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+    border: 3px solid #73AD21;  
+}
+
+.balls {
+
+display: inline-block;
+    width: 800px;
+    height: 300px;
+    margin: 10px;
+    border: 3px solid #73AD21;
+
+
+}
+
+#circle1 {
+  display: inline-block;
+  background: black;
+  border-radius: 75%;
+  height: 300px;
+  width: 300px;
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle at 100px 100px, #5cabff, #000);
+    animation: ball1 3s infinite;
+}
+
+@keyframes ball1 {
+
+from{height: 300px;
+	width: 300px;
+}
+
+to{height: 10px;
+	width: 10px;
+}
+}
+#circle2 {
+
+  display: inline-block;
+  background: black;
+  border-radius: 75%;
+  height: 100px;
+  width: 100px;
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle at 100px 100px, hotpink, #000);
+  animation: ball2 4s infinite;
+}
+
+@keyframes ball2 {
+
+    100%   {width: 100px; height: 100px;}
+    50%  {height: 75px; width: 75px;}
+    75%  {height: 50px; width: 50px;}
+    25%  {height: 25px; width: 25px;}
+    0% {height: 0px; width:0px;}
+}
+#circle3 {
+  display: inline-block;
+  background: black;
+  border-radius: 75%;
+  height: 100px;
+  width: 100px;
+  margin: 0;
+  padding: 0;
+  background: radial-gradient;
+  animation: ball3 2s infinite;
+}
+
+@keyframes ball3 {
+    100%   {width: 100px; height: 100px;}
+    
+    80%  {height: 80px; width: 80px;}
+    60%  {height: 60px; width: 60px;}
+    40%  {height: 40px; width: 40px;}
+    20%	 {height: 20px;	width: 20px;}
+    0%   {height: 0px; width:0px;}
+
+}
+
+
+.sleep {
+    width: 200px;
+    height: 200px;
+    background-image: url("../resource/sleep.jpg");
+    position: relative;
+    animation: slide 5s infinite;
+}
+@keyframes slide {
+  0% {
+    background-position: -500px 0; }
+
+  100% {
+    background-position: 0 0; } }
+    
+}
+
+
+
+
+
+
+
